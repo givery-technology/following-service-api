@@ -1,0 +1,15 @@
+{
+  "name": "follow-service-api",
+  "version": "1.0.0",
+  "description": "API specifications for virtual service, used in codecheck content",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Givery, Inc.",
+  "license": "ISC",
+  "dependencies": {
+    "api-first-spec": "^0.2.9",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
