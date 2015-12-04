@@ -18,7 +18,7 @@
 
 ## Following
 - Follow
-	- PUT    /api/user/following/:id
+	- POST    /api/user/following/:id
 - Unfollow
 	- DELETE /api/user/following/:id
 
