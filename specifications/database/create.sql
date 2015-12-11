@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS followers (
   id integer AUTOINCREMENT NOT NULL PRIMARY KEY,
-  user_id int NOT NULL REFERENCES users(id), -- User who is followed
-  followed_by int NOT NULL REFERENCES users(id), -- User one who following  
+  user_id integer NOT NULL REFERENCES users(id), -- User who is followed
+  followed_by integer NOT NULL REFERENCES users(id), -- User one who following  
   UNIQUE (user_id, follower_id)
 );
