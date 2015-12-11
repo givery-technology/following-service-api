@@ -7,7 +7,7 @@
   },
   "author": "Givery, Inc.",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "api-first-spec": "^0.2.9",
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
