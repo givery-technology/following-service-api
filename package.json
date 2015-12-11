@@ -2,7 +2,10 @@
   "name": "follow-service-api",
   "version": "1.0.0",
   "description": "API specifications for virtual service, used in codecheck content",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "debug": "node debug app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Givery, Inc.",
@@ -11,5 +14,11 @@
     "api-first-spec": "^0.2.9",
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "knex": "^0.9.0",
+    "sqlite3": "^3.1.1"
   }
 }
