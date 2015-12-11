@@ -1,41 +1,59 @@
 # Following Service API
 
-## Account
+## Configurations
+### Host
+- protocol
+  - http
+- hostname
+  - localhost
+- port
+  - 3000
+
+### Database
+- driver
+  - sqlite3
+- schema
+  - specifications/database/create.sql
+- database file
+  - specifications/service.sqlite
+
+## Endpoints
+### Account
 - Sign up
-	- POST   /api/join
+  - POST   /api/join
 - Sign in
-	- POST   /api/sessions
+  - POST   /api/sessions
 - Sign out
-	- DELETE /api/sessions 
+  - DELETE /api/sessions 
 
-## Profile
+### Profile
 - Read Profile
-	- GET  	 /api/users/:id
+  - GET     /api/users/:id
 - Update Profile
-	- PUT 	 /api/users/:id
+- PUT    /api/users/:id
 - Delete Profile
-	- DELETE /api/users/:id
+  - DELETE /api/users/:id
 
-## Following
+### Following
 - Follow
-	- POST    /api/user/following/:id
+  - PUT    /api/user/following/:id
 - Unfollow
-	- DELETE /api/user/following/:id
+  - DELETE /api/user/following/:id
 
-## Pager
+### Pager
 - Users List
-	- GET    /api/users
+  - GET    /api/users
 - Followers List
-	- GET    /api/users/:id/followers
+  - GET    /api/users/:id/followers
 
-# Additionals
+## Additional Endpoints (if possible)
 
-## Organization
+### Organization
 - Create
-	- POST   /api/organizations
+  - POST   /api/organizations
 - Read
-	- GET    /api/organizations/:id
+  - GET    /api/organizations/:id
 - Update
-	- PUT    /api/organizations/:id
+  - PUT    /api/organizations/:id
 - Delete
-	- DELETE /api/organizations/:id
+  - DELETE /api/organizations/:id
