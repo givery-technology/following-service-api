@@ -1,0 +1,8 @@
+build:
+  - node install
+web:
+  command: sbt run
+  port: 3000
+  dir: application
+  console: true
+test: mocha --recursive specifications
