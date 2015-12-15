@@ -1,10 +1,10 @@
 {
-  "editable": {
+  "editable": [
     "codecheck.yml",
     "application/*"
-  },
-  "exclude": {
+  ],
+  "exclude": [
     "challenge.json"
-  },
-  "test": "mocha specifications"
+  ],
+  "test": "mocha --recursive specifications"
 }
