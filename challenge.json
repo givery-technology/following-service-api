@@ -6,5 +6,6 @@
   "exclude": [
     "challenge.json"
   ],
+  "allowNewFile": true,
   "test": "mocha --recursive specifications"
 }

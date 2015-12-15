@@ -1,5 +1,5 @@
 build:
-  - node install
+  - npm install
 web:
   command: sbt run
   port: 3000
