@@ -3,6 +3,5 @@ build:
 web:
   command: npm start
   port: 3000
-  dir: application
   console: true
 test: mocha --recursive specifications
