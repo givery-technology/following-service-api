@@ -1,7 +1,8 @@
 {
   "editable": [
     "codecheck.yml",
-    "application/*"
+    "application/*",
+    "app.js"
   ],
   "exclude": [
     "challenge.json"
