@@ -1,4 +1,5 @@
 build:
+  - touch service.sqlite
   - npm install
 web:
   command: npm start
